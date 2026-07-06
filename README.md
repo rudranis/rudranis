@@ -44,6 +44,11 @@ I'm an IT undergrad building resume-worthy, production-grade projects across **b
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
+**Frontend**  
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+
 **Backend & Frameworks**  
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
@@ -72,37 +77,35 @@ I'm an IT undergrad building resume-worthy, production-grade projects across **b
 
 ### 🌟 Featured Projects
 
-#### 🩺 [RAGnosis](https://github.com/rudranis/RAGnosis-AI-Powered-Medical-Report-Analysis)
-AI-powered medical report analysis & hospital management platform.
-- RAG pipeline: BioBERT (NER) + BART (summarization) + Groq LLaMA 3 + FAISS
-- Full hospital workflow: Patient / Doctor / Receptionist roles with JWT RBAC
-- React + Flask + MongoDB, React Native (Expo) mobile app
-- **Focus:** Applied AI, RAG architecture, full-stack integration
+#### 🩺 [RAGnosis — AI-Powered Medical Report Analysis](https://github.com/rudranis/RAGnosis-AI-Powered-Medical-Report-Analysis)
+An AI-driven medical report analysis and hospital management platform. Combines BioBERT (NER), BART (summarization), and Groq LLaMA 3 with FAISS-based RAG retrieval to turn raw lab reports into plain-English insights. Supports a full hospital workflow — Patient, Doctor, and Receptionist roles under JWT-based RBAC — with a React + Flask + MongoDB stack and a React Native (Expo) mobile app.
+**Tech:** React, Flask, MongoDB, BioBERT, BART, FAISS, Groq LLaMA 3
+**Focus:** Applied AI, RAG architecture, full-stack integration
 
-#### 🎫 [PICT Guard](https://github.com/rudranis/PICT-Guard-Smart-Gate-Pass-Management-System)
-Smart QR-based gate pass management system for a college campus.
-- FastAPI + React + MongoDB, role-based portals (Admin/Student/Faculty/Guard/Visitor)
-- QR token validation, bulk Excel onboarding, event-based passes
-- **Focus:** System design, role-based access, real-world deployment
+#### 🎫 [PICT Guard — Smart Gate Pass Management System](https://github.com/rudranis/PICT-Guard-Smart-Gate-Pass-Management-System) &nbsp;·&nbsp; [🔗 Live Demo](https://pict-guard-smart-gate-pass-manageme-lime.vercel.app/)
+A QR-code based gate pass system for college campuses with role-based portals for Admin, Student, Faculty, Guard, and Visitor. Handles secure entry/exit validation, bulk Excel onboarding, and event-based passes end to end.
+**Tech:** HTML, CSS, Java, React, FastAPI/Flask, MongoDB, AWS
+**Focus:** System design, role-based access control, real-world deployment
 
 #### 🧾 [Automated AWS Receipt Processing System](https://github.com/rudranis/Automated_AWS_ReceiptProcessingSystem)
-Fully serverless receipt digitization pipeline.
-- S3 → Lambda → Textract → DynamoDB → SES notification flow
-- **Focus:** Serverless architecture, AWS orchestration
+A fully serverless pipeline that digitizes and processes receipts automatically. A receipt uploaded to S3 triggers a Lambda function, which calls Textract to extract structured data, stores it in DynamoDB, and sends a confirmation email via SES — all without a single server to manage.
+**Tech:** AWS S3, Lambda, Textract, DynamoDB, SES
+**Focus:** Serverless architecture, event-driven AWS orchestration
 
 #### 💬 [Spring Boot Chat App](https://github.com/rudranis/springboot-chat-app-project)
-Real-time chat application built on Spring Boot.
-- **Focus:** WebSocket communication, backend messaging patterns
+A real-time chat application built on Spring Boot, focused on message delivery and backend session handling. Explores WebSocket-based communication patterns as a foundation for messaging-driven backend systems.
+**Tech:** Java, Spring Boot, WebSocket
+**Focus:** Real-time communication, backend messaging design
 
 #### 🏙️ [Citizen Feedback Management System](https://github.com/rudranis/citizen-feedback-management-mongodb)
-Platform for citizens to submit and track civic feedback/complaints.
-- MongoDB-backed, structured feedback workflows
-- **Focus:** CRUD-heavy backend design, data modeling
+A civic platform where citizens can submit, track, and follow up on feedback and complaints. Built around structured, MongoDB-backed workflows that keep submissions organized from intake to resolution.
+**Tech:** MongoDB, backend CRUD APIs
+**Focus:** Data modeling, CRUD-heavy backend design
 
 #### 💊 [MD_final — Medical Reminder System](https://github.com/rudranis/MD_final)
-Medical reminder web application.
-- SQL + HTML-based reminder scheduling system
-- **Focus:** Database-driven web fundamentals
+A medical reminder web application that helps users schedule and track medication timings. Built with a SQL-backed database and an HTML front end, focusing on solid data-driven fundamentals over flashy UI.
+**Tech:** SQL, HTML
+**Focus:** Database-driven web fundamentals
 
 ---
 
@@ -110,7 +113,7 @@ Medical reminder web application.
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=rudranis&show_icons=true&theme=tokyonight&hide_border=true"/>
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=rudranis&theme=tokyonight&hide_border=true"/>
+  <img height="165" src="https://streak-stats.demolab.com/?user=rudranis&theme=tokyonight&hide_border=true"/>
 </p>
 
 <p align="center">
